@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(250, 190, 157);
+  font-family: monospace;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.home-card {
+  text-align: center;
+  background-color: blanchedalmond;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#image-circle {
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 30px;
+  color: rgb(45, 3, 3);
+}
+
+h2 {
+  font-family: serif;
+  color: rgb(66, 66, 21);
+}
+
+p {
+  font-family: monospace;
+  font-size: 18px;
+  color: black;
+  padding-bottom: 10px;
+}
+
+button {
+  color: whitesmoke;
+  background-color: blueviolet;
+  border-radius: 5px;
+  padding: 15px 22px;
+}
+
+button>a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+button>a:hover {
+  color: yellowgreen;
+}
+
+ul>li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
